@@ -1,39 +1,39 @@
 
 [
     {
-      "Make": "BMW",
-      "Model": "5 Serires",
-      "Details": {
-        "Litres": "2.0L",
-        "Color": "Blue",
-        "Market Rate": "£40,000"
+      "make": "BMW",
+      "model": "5 Serires",
+      "details": {
+        "litres": "2.0L",
+        "color": "Blue",
+        "marketRate": "£40,000"
       },
-      "Pricing": {
-        "Daily Rate": "£50"
+      "pricing": {
+        "dailyRate": "£50"
       }
     }, 
     {
-      "Make": "Audi",
-      "Model": "A5",
-      "Details": {
-        "Litres": "2.0L",
-        "Color": "White",
-        "Market Rate": "£50,000"
+      "make": "Audi",
+      "model": "A5",
+      "details": {
+        "litres": "2.0L",
+        "color": "White",
+        "marketRate": "£50,000"
       },
-      "Pricing": {
-        "Daily Rate": "£70"
+      "pricing": {
+        "dailyRate": "£70"
       }
     }, 
     {
-      "Make": "Lexus",
-      "Model": "C200",
-      "Details": {
-        "Litres": "2.0L",
-        "Color": "Black",
-        "Market Rate": "£45,000"
+      "make": "Lexus",
+      "model": "C200",
+      "details": {
+        "litres": "2.0L",
+        "color": "Black",
+        "marketRate": "£45,000"
       },
-      "Pricing": {
-        "Daily Rate": "£45"
+      "pricing": {
+        "dailyRate": "£45"
       }
     }
   ]

@@ -2,23 +2,47 @@
     "contract id": 1,
     "details": { 
         "name": "Shubs",
-        "days-of-rental": 10
+        "daysOfrRental": 10
        
     },
-    "Vehicle": {
-        "Make": "BMW",
-        "Model": "3 serires",
-        "Fuel Type": "Diesel"
+    "vehicle": {
+        "make": "BMW",
+        "model": "3 serires",
+        "fuelType": "Diesel"
     }, 
-    "Cover": { 
-        "Damage-Waiver": true,
-        "Road-Side-Protection": true
+    "cover": { 
+        "damageWaiver": true,
+        "roadSideProtection": true
     }, 
-    "Driver-Details": {
-        "First-Name":"Shubs",
-        "Last-Name": "Virk"
+    "driverDetails": {
+        "firstName":"Shubs",
+        "lastName": "Virk"
+
+    }
+},
+{
+    "contract id": 1,
+    "details": { 
+        "name": "Shubs",
+        "daysOfrRental": 10
+       
+    },
+    "vehicle": {
+        "make": "BMW",
+        "model": "3 serires",
+        "fuelType": "Diesel"
+    }, 
+    "cover": { 
+        "damageWaiver": true,
+        "roadSideProtection": true
+    }, 
+    "driverDetails": {
+        "firstName":"Shubs",
+        "lastName": "Virk"
 
     }
 
 
-}]
+}
+
+]
