@@ -6,25 +6,25 @@ const Cars = () => {
 
   return (
     <div>
-      <h1>Returned Cars</h1>
+      {carData.map(car => (
+        <div>
+          <h1>Returned Cars</h1>
+          <h1>{car.make}</h1>
+          <p>You choose {Return} Mercedes</p>
+          <button
+            onClick={() => setReturn(Return + 1)}
+          >
+            Add
+          </button>
 
-      {carData.map(car => {
-        return <h1>{car.make}</h1>
-      })}
-
-      <p>You choose {Return} Mercedes</p>
-      <button
-        onClick={() => setReturn(Return + 1)}
-      >
-        Add
-      </button>
-
-      <button
-        onClick={() => setReturn(Return - 1)}
-      >
-        Remove
-      </button>
-    </div>
+          <button
+            onClick={() => setReturn(Return - 1)}
+          >
+            Remove
+          </button>
+        </div>
+      ))}
+    < /div>
   );
 };
 
