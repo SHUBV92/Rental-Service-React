@@ -6,6 +6,10 @@ const Booking = () => {
     return(
         <div>
             <h1>Booking</h1>
+            <input 
+            type="date"
+            placeholder="date"
+            />
             <Form />
         </div>
     )

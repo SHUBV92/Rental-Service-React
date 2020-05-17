@@ -1,39 +1,42 @@
-import React from 'react'
+import React from "react";
 
-
-const Form = () => { 
-
-return(
+const Form = () => {
+  return (
     <div>
-        
-            <label>Name</label>
-            <input
+      <ul>
+        <li>
+          <label>Name</label>
+          <input
             type="text"
             name="name"
             placeholder="Name"
-            />
+          />
+        </li>
 
-            <label>Email</label>
-            <input
+        <li>
+          <label>Email</label>
+          <input
             type="email"
             name="Email"
             placeholder="Name"
-            />
+          />
+        </li>
 
-            <label>Car</label>
-            <input
+        <li>
+          <label>Car</label>
+          <input
             type="text"
-            name="Cae"
+            name="Car"
             placeholder="Car"
-            />
-            {/* Drop Down Menu  */}
-            {/*   */}
+          />
+        </li>
+        {/* Drop Down Menu  */}
+        {/*   */}
 
-            <label>Calendar</label>
-
+        <label>Calendar</label>
+      </ul>
     </div>
-)
-
-}
+  );
+};
 
 export default Form;
