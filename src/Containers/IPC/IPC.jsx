@@ -7,6 +7,8 @@ import {
 const IPC = props => {
   const [income, setIncome] = useState(0);
   const [carEntries, setcarEntries] = useState(0);
+  // const [carEntry, setcarEntries] = useState(0);
+
   //   const [income, setIncome] = useState(0);
 
   return (
