@@ -17,11 +17,11 @@ const NavbarTool = () => (
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
       <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#link">Bookings</Nav.Link>
+      <Nav.Link href="/bookings">Bookings</Nav.Link>
       <NavDropdown title="Rentals" id="basic-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Returns</NavDropdown.Item>
+        <NavDropdown.Item href="/cars">Returns</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.2">Contracts</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">IPC</NavDropdown.Item>
+        <NavDropdown.Item href="/ipc">IPC</NavDropdown.Item>
         <NavDropdown.Divider />
         <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
       </NavDropdown>
